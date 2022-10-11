@@ -81,46 +81,94 @@
 // }
 
 // 7.
-let height = 1.78;
-let weight = 81;
+// let height = 1.78;
+// let weight = 81;
 
-let oscarBmi = weight / (height * height);
-console.log(oscarBmi);
+// let oscarBmi = weight / (height * height);
+// console.log(oscarBmi);
 
-if (oscarBmi < 18.5) {
-  console.log("Underweight");
-} else if (oscarBmi >= 18.5 && oscarBmi <= 25) {
-  console.log("Normalweight");
-} else if (oscarBmi >= 25 && oscarBmi <= 30) {
-  console.log("Overweight");
-} else {
-  console.log("Fetma");
-}
+// if (oscarBmi < 18.5) {
+//   console.log("Underweight");
+// } else if (oscarBmi >= 18.5 && oscarBmi <= 25) {
+//   console.log("Normalweight");
+// } else if (oscarBmi >= 25 && oscarBmi <= 30) {
+//   console.log("Overweight");
+// } else {
+//   console.log("Fetma");
+// }
 
 // 8.
-
-// let day;
-// switch (new Date().getDay()) {
-//   case 1:
-//     day = "monday";
-//     break;
-//   case 2:
-//     day = "tuseday";
-//     break;
-//   case 3:
-//     day = "untzday";
-//     break;
-//   case 4:
-//     day = "thirsday";
-//     break;
-//   case 5:
-//     day = "friday";
-//     break;
-//   case 6:
-//     day = "saturday";
-//     break;
-//   case 7:
-//     day = "sunday";
-//     break;
+// function getDayName(dayNum) {
+//   switch (dayNum) {
+//     case 1:
+//       day = "Monday";
+//       break;
+//     case 2:
+//       day = "Tuseday";
+//       break;
+//     case 3:
+//       day = "Wednsday";
+//       break;
+//     case 4:
+//       day = "Thursday";
+//       break;
+//     case 5:
+//       day = "Friday";
+//       break;
+//     case 6:
+//       day = "Saturday";
+//       break;
+//     default:
+//       day = false;
+//   }
+//   return day;
 // }
-// console.log(day);
+// console.log(getDayName(1));
+
+// 9.
+// function getMonthName(monthNum) {
+//   switch (monthNum) {
+//     case 1:
+//       month = "January";
+//       break;
+//     case 2:
+//       month = "February";
+//       break;
+//     case 3:
+//       month = "March";
+//       break;
+//     case 4:
+//       month = "April";
+//       break;
+//     case 5:
+//       month = "May";
+//       break;
+//     case 6:
+//       month = "June";
+//       break;
+//     case 7:
+//       month = "July";
+//       break;
+//     case 8:
+//       month = "August";
+//       break;
+//     case 9:
+//       month = "September";
+//       break;
+//     case 10:
+//       month = "October";
+//       break;
+//     case 11:
+//       month = "November";
+//       break;
+//     case 12:
+//       month = "December";
+//       break;
+//     default:
+//       month = false;
+//   }
+//   return month;
+// }
+// console.log(getMonthName(1));
+
+// Weekdays Gör ett program som tar ett nummer ( 1-7 ) och skriver ut vilken veckodag numret motsvarar. Ex. 1 = måndag, 3 = untzdag. Om numret inte motsvarar någon veckodag skall programmet skriva ut false.
