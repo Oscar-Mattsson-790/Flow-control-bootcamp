@@ -170,5 +170,3 @@
 //   return month;
 // }
 // console.log(getMonthName(1));
-
-// Weekdays Gör ett program som tar ett nummer ( 1-7 ) och skriver ut vilken veckodag numret motsvarar. Ex. 1 = måndag, 3 = untzdag. Om numret inte motsvarar någon veckodag skall programmet skriva ut false.
