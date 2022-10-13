@@ -94,7 +94,7 @@
 // } else if (oscarBmi >= 25 && oscarBmi <= 30) {
 //   console.log("Overweight");
 // } else {
-//   console.log("bese");
+//   console.log("Obese");
 // }
 
 // 8.
