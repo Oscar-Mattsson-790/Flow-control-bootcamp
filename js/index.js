@@ -90,11 +90,11 @@
 // if (oscarBmi < 18.5) {
 //   console.log("Underweight");
 // } else if (oscarBmi >= 18.5 && oscarBmi <= 25) {
-//   console.log("Normalweight");
+//   console.log("Normal weight");
 // } else if (oscarBmi >= 25 && oscarBmi <= 30) {
 //   console.log("Overweight");
 // } else {
-//   console.log("Fetma");
+//   console.log("bese");
 // }
 
 // 8.
