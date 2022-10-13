@@ -51,13 +51,13 @@
 //   console.log(false);
 // }
 
-// 6. INTE KLAR //////////////////
+// 6.
 // const small = "small";
 // const medium = "medium";
 // const large = "large";
 // const platinum = "platinum";
-
 // let akband = platinum;
+
 // Verson 1
 // if (akband === large || akband === platinum) {
 //   console.log(`You can ride balder with your ${akband} pass`);
@@ -72,12 +72,6 @@
 //   console.log(`You can ride balder with your ${akband} pass`);
 // } else {
 //   console.log(`You CAN NOT ride balder with your ${akband} pass!`);
-// }
-
-// if (person === balder) {
-//   console.log("You are allowed to ride balder");
-// } else if (person !== balder) {
-//   console.log("you are not allowed to ride balder");
 // }
 
 // 7.
@@ -124,6 +118,30 @@
 //   return day;
 // }
 // console.log(getDayName(1));
+
+// switch (1) {
+//   case 1:
+//     day = "Monday";
+//     break;
+//   case 2:
+//     day = "Tuseday";
+//     break;
+//   case 3:
+//     day = "Wednsday";
+//     break;
+//   case 4:
+//     day = "Thursday";
+//     break;
+//   case 5:
+//     day = "Friday";
+//     break;
+//   case 6:
+//     day = "Saturday";
+//     break;
+//   default:
+//     day = false;
+// }
+// console.log(day);
 
 // 9.
 // function getMonthName(monthNum) {
